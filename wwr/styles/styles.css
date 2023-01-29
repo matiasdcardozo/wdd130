@@ -1,0 +1,47 @@
+
+
+body
+
+     {
+        max-width: 1600px;
+    } 
+       p { 
+        margin: 0 auto;
+        text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #eb2828; 
+}
+header {
+    background-color:rgba(223, 246, 76, 0.7);
+}
+nav a:hover {
+    background-color: rgb(237, 155, 155);
+}
+.book, .join {
+    background-color: aqua;
+}
+.book:hover, .join:hover {
+    background-color: aqua;
+}
+#background {
+    background-color: aqua;
+}
+.msg {
+    background-color: aqua;
+}
+footer {
+    background-color: aqua;
+}
+
+            
+     
+
+
+
+
+
+

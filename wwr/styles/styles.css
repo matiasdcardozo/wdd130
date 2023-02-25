@@ -8,6 +8,10 @@ body {
     margin: 0;
     padding: 0;
 }
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -42,8 +46,8 @@ nav {
 #hero-msg h4 {
     color: white;
 }
-img {
-    max-width: 100%;
+#hero-img {
+    width: 100%;
 }
 
 

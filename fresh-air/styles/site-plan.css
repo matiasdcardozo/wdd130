@@ -6,7 +6,7 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #cccccc   ;
-  --secondary-color: #177E89 ;
+  --secondary-color: #2da3b0 ;
   --accent1-color: #B5C9C3;
   --accent2-color: white;
 
@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: rgb(135, 191, 37) ;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
@@ -35,6 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: rgb(234, 239, 72);
 }
 img {
   display: block;
@@ -172,4 +173,40 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.camping-stars {
+  margin: 100px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.big-fire {
+  margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.camp-fire {
+  margin: 100px 0;
+  grid-column: 8/10;
+  grid-row: 2/3;
+}
+.simple {
+  margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.camping-with-friends {
+  margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.family-fire {
+  margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.card-img {
+  border: 10px solid #060606;
+  width: 50%;
+  box-shadow: 5px 5px 10px #6f7364;
+  transition: transform .5s;
 }
